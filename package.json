@@ -1,0 +1,38 @@
+{
+  "name": "wedding-card-design",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.12.0",
+    "@supabase/supabase-js": "2.108.1",
+    "framer-motion": "12.40.0",
+    "lucide-react": "1.18.0",
+    "next": "15.5.19",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-hook-form": "7.79.0",
+    "zod": "4.4.3",
+    "zustand": "5.0.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.1",
+    "@types/node": "22.10.10",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "9.30.0",
+    "eslint-config-next": "15.5.19",
+    "prettier": "3.5.3",
+    "tailwindcss": "4.3.1",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "yarn@1.22.22"
+}
